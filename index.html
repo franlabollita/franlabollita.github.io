@@ -18,6 +18,14 @@
         <p>I'm a Software Engineering student at UBA, living it up in Buenos Aires, Argentina. I've had a pretty unique upbringing, living in both Bermuda &#x1F1E7;&#x1F1F2; and Miami 🇺🇸. When I'm not diving into code or tackling tech challenges, you can catch me lost in a good book, binge-watching movies, strategizing my next chess move, or passionately rooting for River Plate. Life's all about finding that perfect balance between bytes and goals, right?.</p>
     </div>
   </main>
+  <section id="my-resume">
+    <h2>My Resume</h2>
+    <p>Take my Resume before you go!</p>
+    <div class="resume-buttons">
+      <button class="resume-button" id="download-eng-button"><a href="CV_FranciscoLabollita_eng.pdf" download>English</a></button>
+      <button class="resume-button" id="download-esp-button"><a href="CV_FranciscoLabollita_esp.pdf" download>Spanish</a></button>
+    </div>
+  </section>
   <section id="contact">
     <h2>Contact Me</h2>
     <ul class="social-buttons">
@@ -27,6 +35,10 @@
       <li><a href="mailto:francisco.labollita@gmail.com" class="social-button">Email</a></li>
     </ul>
   </section>
-  <script src="script.js"></script>
+  <script src="script.js">
+    document.addEventListener("DOMContentLoaded", function () {
+      document.getElementById("download-button").click();
+    });
+  </script>
 </body>
 </html>
