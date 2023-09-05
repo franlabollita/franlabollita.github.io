@@ -5,15 +5,50 @@ body {
   
   /* Additional styling for the header and social buttons */
   header {
-    background-color: #333; /* You can adjust the header color as needed */
-    color: #fff; /* Header text color */
+    background-color: #659DBD; /* Set to the same background color as the main background */
+    color: #fff;
     padding: 20px;
+    text-align: center;
+  }
+
+  /* Style for the h1 (your name) */
+  header h1 {
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin-top: 10px; /* Add some space above the h1 */
   }
   
+  /* Style for the h2 (description) */
+  header h2 {
+    font-size: 1rem; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add some space below the h2 */
+  }
+  
+  /* Style the list containing the social buttons */
+  .social-buttons {
+    list-style-type: none; /* Remove default list bullet points */
+    padding: 0; /* Remove default list padding */
+    display: flex; /* Display list items horizontally */
+    justify-content: center; /* Center-align list items horizontally */
+   }
+  
   .social-button {
-    background-color: #fff; /* Button background color */
-    color: #333; /* Button text color */
+    background-color: #DAAD86;
+    color: #664d2f; /* Slightly darker text color */
     padding: 10px 20px;
     text-decoration: none;
-    margin-right: 10px; /* Add some spacing between buttons */
+    margin-right: 10px;
+    border-radius: 20px; /* Round the buttons */
+    display: inline-block; /* Ensure buttons are inline elements */
+    transition: background-color 0.3s, color 0.3s; /* Add a smooth transition */
+  }
+  
+  /* Additional styling for the Contact section */
+  #contact {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* Style for the 'Contact Me' title */
+  #contact h2 {
+    margin-bottom: 20px; /* Add some space below the title */
   }
