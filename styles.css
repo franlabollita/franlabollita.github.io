@@ -1,0 +1,19 @@
+body {
+    background-color: #659DBD;
+    color: #DAAD86;
+  }
+  
+  /* Additional styling for the header and social buttons */
+  header {
+    background-color: #333; /* You can adjust the header color as needed */
+    color: #fff; /* Header text color */
+    padding: 20px;
+  }
+  
+  .social-button {
+    background-color: #fff; /* Button background color */
+    color: #333; /* Button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 10px; /* Add some spacing between buttons */
+  }
