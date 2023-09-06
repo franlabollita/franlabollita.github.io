@@ -51,9 +51,14 @@ body {
     padding-right: 20%; /* Add padding to the right side */
     font-family: 'Dosis', sans-serif;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
   }
   
+  /* Style for the paragraph in the My Resume section */
+  #my-resume p {
+    font-size: 18px; /* Adjust the font size as desired */
+  }
+
   .resume-buttons {
     margin-top: 20px;
 }
@@ -82,6 +87,13 @@ body {
     outline: none;
     text-decoration: none;
   }
+
+  .link-button{
+    text-decoration:none;
+    color: #664d2f;
+    font-family: 'Dosis', sans-serif;
+    font-size: 17px;
+   }
 
   /* Style the list containing the social buttons */
   .social-buttons {
