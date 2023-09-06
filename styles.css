@@ -27,6 +27,7 @@ body {
     padding-left: 22%; /* Add padding to the left side */
     padding-right: 22%; /* Add padding to the right side */
     font-family: 'Dosis', sans-serif;
+    color: #02324e;
   }
 
   /* Style for the paragraph in the header */
@@ -53,7 +54,11 @@ body {
     color: white;
     font-size: 20px;
   }
-  
+
+  .about-me-container h1 { 
+    color: #02324e;
+  }
+
   /* Style for the paragraph in the My Resume section */
   #my-resume p {
     font-size: 18px; /* Adjust the font size as desired */
@@ -94,6 +99,10 @@ body {
     font-family: 'Dosis', sans-serif;
     font-size: 17px;
    }
+
+  #my-resume h1 { 
+    color: #02324e;
+  }
 
   /* Style the list containing the social buttons */
   .social-buttons {
