@@ -30,12 +30,20 @@ body {
     color: #02324e;
   }
 
-  /* Style for the paragraph in the header */
-  #about-website p {
-    padding-left: 25%; /* Add padding to the left side */
-    padding-right: 25%; /* Add padding to the right side */
+  /* Style for the "About Me" container */
+  #about-website {
+    margin: 0 auto; /* Center-align the container horizontally */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    padding-top: 20px;
+    padding-left: 20%; /* Add padding to the left side */
+    padding-right: 20%; /* Add padding to the right side */
     font-family: 'Dosis', sans-serif;
-    font-size: 18px;
+    color: white;
+    font-size: 22px;
+  }
+
+  #about-website h1 { 
+    color: #02324e;
   }
 
   /* Style for the main content */
@@ -52,21 +60,66 @@ body {
     padding-right: 20%; /* Add padding to the right side */
     font-family: 'Dosis', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   #about-me-container h1 { 
     color: #02324e;
   }
 
+  #my-qualifications {
+    margin: 0 auto; /* Center-align the container horizontally */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    padding-top: 20px;
+    padding-left: 20%; /* Add padding to the left side */
+    padding-right: 20%; /* Add padding to the right side */
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+  }
+
+  #my-qualifications h1 {
+    color: #02324e;
+  }
+
+  /* Style for individual badge images */
+  #qualification-section img {
+    display: block; /* Ensures images stack vertically */
+    margin-bottom: 10px; /* Space between badge images */
+    max-width: 100%; /* Ensure images don't exceed the container width */
+  }
+
+  .qualification-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .qualification-badge {
+    max-width: 100%;
+    height: auto;
+    width: 10%; /* Set the desired width for the badges */
+    margin: 20px; /* Add margin for spacing between badges */
+  }
+
+  #my-resume {
+    margin: 0 auto; /* Center-align the container horizontally */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    padding-top: 20px;
+    padding-left: 20%; /* Add padding to the left side */
+    padding-right: 20%; /* Add padding to the right side */
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+  }
+
   /* Style for the paragraph in the My Resume section */
   #my-resume p {
-    font-size: 18px; /* Adjust the font size as desired */
+    font-size: 22px; /* Adjust the font size as desired */
   }
 
   .resume-buttons {
     margin-top: 20px;
-}
+ }
   
   .resume-button {
     background-color: #DAAD86;
@@ -114,14 +167,16 @@ body {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+    background-color: transparent; /* Make the background transparent */
+    border: none; /* Make the border transparent */
   }
   
   #prev-section {
-    left: 20px;
+    left: 20%;
   }
   
   #next-section {
-    right: 20px;
+    right: 20%;
   }
 
   /* Style the list containing the social buttons */
@@ -161,4 +216,22 @@ body {
   #contact h2 {
     margin-bottom: 20px; /* Add some space below the title */
     font-family: 'Dosis', sans-serif;
+  }
+
+
+  .arrow {
+    border: solid white;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 6px;
+  }
+
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
   }
